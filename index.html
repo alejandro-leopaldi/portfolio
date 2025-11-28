@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Alejandro Miguel Leopaldi</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="main-header-container">
+        <header data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.1">
+            <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+                <i class="fas fa-moon"></i>
+            </button>
+            
+            <div class="header-content-wrapper">
+                <div class="img-container">
+                    <img src="https://alejandro-leopaldi.github.io/MiCV/MiCVFrontEnd/img/profile.jpg" alt="Alejandro Leopaldi" class="profile-img">
+                </div>
+                
+                <div class="header-text">
+                    <h1>Alejandro M. Leopaldi</h1>
+                    <p class="role-subtitle"><span id="typing-text"></span><span class="cursor">|</span></p>
+                    
+                    <div class="contact-mini">
+                         <a href="https://www.linkedin.com/in/alejandro-leopaldi-dev" target="_blank"><i class="fab fa-linkedin"></i></a>
+                         <a href="mailto:alejandro.m.leopaldi@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="container main-content-area">
+        
+        <nav class="tabs-nav">
+            <button class="tab-btn active" data-target="#panel-resumen">
+                <i class="fas fa-user"></i> Sobre Mí
+            </button>
+            <button class="tab-btn" data-target="#panel-skills">
+                <i class="fas fa-code"></i> Habilidades
+            </button>
+            <button class="tab-btn" data-target="#panel-experiencia">
+                <i class="fas fa-briefcase"></i> Experiencia
+            </button>
+            <button class="tab-btn" data-target="#panel-educacion">
+                <i class="fas fa-graduation-cap"></i> Educación
+            </button>
+        </nav>
+
+        <div class="panels-container">
+
+            <div class="tab-panel active" id="panel-resumen">
+                <section>
+                    <h2>Resumen Profesional</h2>
+                    <p class="lead-text">
+                        Estudiante apasionado por el Desarrollo de Software Front-end y Back-end. 
+                        Poseo experiencia práctica construyendo aplicaciones web utilizando HTML, CSS y JavaScript, 
+                        así como conocimientos en tecnologías en la nube a través de AWS Academy. 
+                        Me considero una persona proactiva, orientada a la resolución de problemas y siempre abierta a aprender nuevas tecnologías para crecer profesionalmente.
+                    </p>
+                    <div class="resumen-highlights">
+                        <div class="highlight-box">
+                            <i class="fas fa-rocket"></i>
+                            <span>Proactivo</span>
+                        </div>
+                        <div class="highlight-box">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Resolución de Problemas</span>
+                        </div>
+                        <div class="highlight-box">
+                            <i class="fas fa-book-reader"></i>
+                            <span>Aprendizaje Continuo</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="tab-panel" id="panel-skills">
+                <section>
+                    <h2>Habilidades Técnicas</h2>
+                    <div class="skills-grid-full">
+                        <div class="skill-category">
+                            <h3>Frontend</h3>
+                            <div class="skill-list">
+                                <span class="skill-tag"><i class="fab fa-react"></i> React.js</span>
+                                <span class="skill-tag"><i class="fab fa-js"></i> JavaScript (ES6+)</span>
+                                <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+                                <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3 / Bootstrap</span>
+                                <span class="skill-tag"><i class="fas fa-mobile-alt"></i> Diseño Responsive</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Backend & Herramientas</h3>
+                            <div class="skill-list">
+                                <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+                                <span class="skill-tag"><i class="fab fa-git-alt"></i> Git / GitHub</span>
+                                <span class="skill-tag"><i class="fab fa-aws"></i> AWS Cloud</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="tab-panel" id="panel-experiencia">
+                <section>
+                    <h2>Trayectoria Laboral</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="job-header">
+                                    <h3 class="job-title">Desarrollador Front-end</h3>
+                                    <span class="company-name">Rocktechnica</span>
+                                </div>
+                                <div class="date"><i class="far fa-calendar-alt"></i> Mayo 2018 – Presente</div>
+                                <ul class="job-details">
+                                    <li>Construcción y mantenimiento de interfaces web modernas y escalables.</li>
+                                    <li>Colaboración estrecha con equipos de diseño UI/UX.</li>
+                                    <li>Optimización del rendimiento web y SEO básico.</li>
+                                    <li>Desarrollo utilizando React (Redux, Redux-Saga).</li>
+                                    <li>Integración de APIs RESTful.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="job-header">
+                                    <h3 class="job-title">Práctica Profesional</h3>
+                                    <span class="company-name">Resumekraft</span>
+                                </div>
+                                <div class="date"><i class="far fa-calendar-alt"></i> Feb 2016 – Abr 2016</div>
+                                <ul class="job-details">
+                                    <li>Desarrollo de componentes web utilizando HTML, CSS y JavaScript puro.</li>
+                                    <li>Implementación de diseños responsivos y testing cross-browser.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="tab-panel" id="panel-educacion">
+                <section>
+                    <h2>Formación Académica</h2>
+                    <div class="timeline">
+                         <div class="timeline-item">
+                            <div class="timeline-marker educational"></div>
+                             <div class="timeline-content">
+                                <h3 class="job-title">Tecnicatura en Desarrollo de Software</h3>
+                                <span class="company-name">IFTS N°29</span>
+                                <div class="date"><i class="far fa-calendar-alt"></i> 2023 – Presente</div>
+                             </div>
+                        </div>
+                         <div class="timeline-item">
+                            <div class="timeline-marker educational"></div>
+                             <div class="timeline-content">
+                                <h3 class="job-title">Curso Desarrollo Web - Front JS</h3>
+                                <span class="company-name">Talento Tech</span>
+                                <div class="date"><i class="far fa-calendar-alt"></i> Marzo 2025</div>
+                             </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div> </div> <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
